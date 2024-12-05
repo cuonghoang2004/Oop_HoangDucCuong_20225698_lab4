@@ -1,0 +1,5 @@
+1.Which classes are aggregates of other classes? Checking all constructors of whole classes if they initialize for their parts?
+    -Lớp Store là một aggregate vì nó quản lý danh sách các đối tượng Media thông qua itemsInStore
+    -Lớp Cart là một aggregate vì nó quản lý các đối tượng Media trong giỏ hàng thông qua itemsOrdered
+    -Lớp CompactDisc là một aggregate vì nó quản lý các đối tượng Track trong giỏ hàng thông qua tracks
+
